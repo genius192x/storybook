@@ -16,6 +16,7 @@ export const createTable = ({
 	typeGame,
 	headerImage,
 	background,
+	buttonLink,
 	footerImage
 
 }) => {
@@ -139,7 +140,7 @@ export const createTable = ({
 					  </tr>
 					  <tr>
 						  <td>
-							  <div style="padding: 20px;margin: 20px auto 40px;text-align: center;"><a href="https://whccska.ru/tickets/?utm_source=matchday_newsletter&utm_medium=email&utm_campaign=mail_list_id%7Ccompany_name%7C17.04.2024" style="background: #C6120B;color: #fff;border: 4px solid #0D1175;text-decoration: none;font-family: sans-serif;padding: 20px 20px;border-radius: 25px;font-size: 26px;font-weight: 600;">${buttonText}</a></div>
+							  <div style="padding: 20px;margin: 20px auto 40px;text-align: center;"><a href="${buttonLink}" style="background: #C6120B;color: #fff;border: 4px solid #0D1175;text-decoration: none;font-family: sans-serif;padding: 20px 20px;border-radius: 25px;font-size: 26px;font-weight: 600;">${buttonText}</a></div>
 						  </td>
 					  </tr>
 					  <tr>

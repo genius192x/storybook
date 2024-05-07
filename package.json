@@ -13,12 +13,14 @@
     "@storybook/html": "^8.0.9",
     "@storybook/html-webpack5": "^8.0.9",
     "@storybook/test": "^8.0.9",
+    "chromatic": "^11.3.0",
     "storybook": "^8.0.9"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_77c89d4d507e456"
   },
   "keywords": [],
   "author": "",

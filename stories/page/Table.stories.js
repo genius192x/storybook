@@ -11,7 +11,11 @@ export default {
   argTypes: {
 	background: {
 		control: { type: 'text' },
-    	description: 'Ссылка на картинку для фона'
+    	description: 'Ссылка на картинку для фона письма'
+    },
+	headerImage: {
+		control: { type: 'text' },
+    	description: 'Ссылка на картинку в хедере письма (с командой)'
     },
 	typeGame: {
 		control: { type: 'text' },
@@ -69,6 +73,10 @@ export default {
 		control: { type: 'text' },
     	description: 'Текст кнопки'
     },
+	buttonLink: {
+		control: { type: 'text' },
+    	description: 'Сслыка для перехода по нажатию кнопки'
+    },
 	footerImage: {
 		control: { type: 'text' },
     	description: 'Ссылка на картинку в футере'
@@ -94,6 +102,7 @@ export const Primary = {
 	stadiumName: 'ВА «Динамо»',
 	stadiumAdress: 'Москва, ул. Василисы Кожиной, д. 13	',
 	buttonText: 'КУПИТЬ БИЛЕТ',
+	buttonLink: 'https://whccska.ru/tickets/?utm_source=matchday_newsletter&utm_medium=email&utm_campaign=mail_list_id%7Ccompany_name%7C17.04.2024',
 	footerImage: 'https://bitrix24public.com/anoprofessionalnyygandbolnyyklub.bitrix24.ru/docs/pub/908b89652a2394ea799598a94b696a14/showFile/?&token=w43nh13zm3uo'
   },
 };
